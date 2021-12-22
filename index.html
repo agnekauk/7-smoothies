@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smooties</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/components/button.css">
 </head>
 
 <body>
@@ -17,14 +18,19 @@
             <a href="#">Smoothies</a>
             <a href="#">Contact us</a>
         </nav>
-        <nav class="icons">
+        <nav class="menu">
             <a href="#" class="fa fa-shopping-basket"></a>
             <a href="#" class="fa fa-search"></a>
         </nav>
+        <i class="fa fa-bars hamburger"></i>
     </header>
     <main class="container">
         <div class="gallery">
-            <img src="./img/drink.png" alt="drink">
+            <picture>
+                <source media="(max-width: 799px)" srcset="./img/drink-mobile.png">
+                <source media="(min-width: 800px)" srcset="./img/drink.png">
+                <img src="./img/drink.png" alt="Drink">
+            </picture>
             <i class="fa fa-angle-right"></i>
             <i class="fa fa-angle-left"></i>
         </div>
