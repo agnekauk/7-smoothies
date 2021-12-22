@@ -11,7 +11,7 @@ body {
     height: 100vh;
     flex-direction: column;
     gap: 30px;
-    padding-top: 20px;
+    padding: 20px 30px;
     justify-content: flex-start;
     align-items: center;
 }
@@ -88,7 +88,78 @@ body {
 }
 
 .text {
+    display: flex;
     width: 40%;
+    flex-direction: column;
+    gap: 30px;
+    flex-grow: 4;
+}
+
+.text > h2 {
+    color: var(--primary-color);
+}
+
+.text > h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text > div {
+    display: flex;
+    gap: 30px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column > *:first-child {
+    margin-bottom: 30px;
+}
+
+h4 {
+    white-space: nowrap;
+}
+
+.vitamins {
+    margin-bottom: 1em;
+    list-style-image: url(../img/plus.png);
+    list-style-position: inside;
+    line-height: 1em;
+}
+.berries {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fcc7d6;
+}
+
+.circle > .first-fruit {
+    transform: translate(40%, 30%);
+}
+.second-fruit {
+    transform: translate(52%, 26%);
+}
+.third-fruit {
+    transform: translate(30%, 40%);
+}
+
+.btn {
+    flex-grow: 1;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 27px;
+    font-size: 18px;
+    line-height: 18px;
 }
 
 @media (min-width: 480px) {
