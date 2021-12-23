@@ -95,11 +95,80 @@ main.container {
     flex-grow: 4;
 }
 
+text > .category {
+}
+.text > .title {
+}
+.text > .description {
+}
+.text > .contains {
+}
+.text > .contains > .list {
+}
+.text .list > .list-title {
+}
+
+.text .list > .list-plus {
+}
+.text .list-plus > li {
+}
+.text .list-plus > li::before {
+}
+.text .list > .list-image {
+}
+.text .list-image > li {
+}
+.text .list-image img {
+}
+.text > form {
+}
+.text > form > button {
+}
+
+@media (min-width: 480px) {
+    .container {
+        width: 440px;
+    }
+}
+
+@media (min-width: 780px) {
+    .container {
+        width: 660px;
+    }
+    .main-menu {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        transform: translateY(0);
+        box-shadow: none;
+    }
+    .main-menu > .menu {
+        flex-direction: row;
+    }
+    .hamburger {
+        display: none;
+    }
+
+    main.container {
+        flex-direction: row;
+    }
+    .gallery {
+        width: 55%;
+    }
+    .text {
+        width: 45%;
+    }
+}
+
 @media (min-width: 1000px) {
     .container {
         width: 900px;
     }
+    .text > .contains {
+        flex-direction: row;
+    }
 }
+
 @media (min-width: 1200px) {
     .container {
         width: 1100px;
