@@ -196,6 +196,11 @@ main.container {
     border-radius: 1.5em;
 }
 
+.demo {
+    color: #ff5e61;
+    text-transform: uppercase;
+}
+
 @media (min-width: 480px) {
     .container {
         width: 440px;
