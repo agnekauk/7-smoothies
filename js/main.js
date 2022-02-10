@@ -17,9 +17,14 @@ hamburger.addEventListener('click', () => {
 //     }
 // }
 
-let image = document.querySelector(".gallery");
-image.addEventListener("mouseup", changePicture);
+let right = document.querySelector(".right");
+right.addEventListener("mouseover", changeColorRight);
+let left = document.querySelector(".left");
+left.addEventListener("mouseover", changeColorLeft);
 
-function changePicture(event) {
-    document.getElementsByClassName("drink").src = "../img/pngaaa.png";
+function changeColorRight(event) {
+    right.style.backgroundColor = "#e95dc6";
+}
+function changeColorLeft(event) {
+    left.style.backgroundColor = "#e95dc6";
 }
