@@ -108,6 +108,7 @@ main.container {
     left: 0;
     padding-right: 0.17em;
 }
+
 .gallery > .fa.fa-angle-right {
     right: 0;
     padding-left: 0.17em;
@@ -174,6 +175,7 @@ main.container {
     background-color: var(--secondary-color);
     border-radius: 50%;
 }
+
 .text .list-image img {
     width: 36px;
     height: 36px;
