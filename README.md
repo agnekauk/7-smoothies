@@ -20,6 +20,7 @@ Design: [Smoothies](https://cdn.discordapp.com/attachments/850245533838868480/85
 -   **_Image_**
 -   **_Web content_**
 -   **_Responsive design_**
+-   **_Javascript_**
 
 ### Authors
 
